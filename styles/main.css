@@ -241,7 +241,12 @@
 .footer-top ul li {
   display: inline-block;
   font-size: 20px;
-  margin: 0 8px;
+  margin-right: 8px;
+}
+
+.footer-top ul li a i:hover {
+  background: rgba(255,255,255,.9);
+  color: #1abc9c;
 }
 
 .footer-top ul li a i {
