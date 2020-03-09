@@ -64,6 +64,10 @@
   text-transform: uppercase;
 }
 
+#portfolio .stars {
+  margin-bottom: 30px;
+}
+
 #portfolio .stars i {
   color: #2c3e50;
 }
@@ -118,5 +122,38 @@
 
 /* about */
 .about {
-  
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 40px;
+}
+
+.about h2 {
+  font-size: 50px;
+}
+
+.about p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.about .stars {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-border {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-border:hover {
+  background-color: #fff;
+  color: #1abc9c;
+}
+
+.btn-border i {
+  margin-right: 10px;
 }
