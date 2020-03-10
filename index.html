@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Start Bootsrap</title>
     <meta name="viewport " content="width=device-width, initial-scale=1.0">
-    <!-- fontawesome -->
+    <!-- fontawesome (icone) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!-- Bootstrap 3.3 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -28,7 +28,7 @@
             </button>
             <a class="navbar-brand" href="#">Start Bootstrap</a>
           </div>
-
+          
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -36,45 +36,40 @@
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
-          </div><!-- /.navbar-collapse -->
+          </div>
         </div><!-- /.container -->
-      </nav>
+      </nav><!-- /.Top-nav -->
     </header><!-- /.header -->
 
     <!-- jumbotron -->
-    <section>
-      <div class="jumbotron">
+    <section class="jumbotron">
         <div class="container">
-          <div class="row">
-            <div class="text-center">
-              <img class="img-responsive center-block" src="assets/avatar.svg" alt="avatar">
-              <h1>START BOOTSTRAP</h1>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-              </div>
-              <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
+          <div class="text-center">
+            <img class="img-responsive center-block" src="assets/avatar.svg" alt="avatar">
+            <h1>START BOOTSTRAP</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
             </div>
+            <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
           </div>
-        </div>
-      </div>
-    </section><!-- /.Jumbotrone -->
+        </div><!-- /.Container -->
+    </section><!-- /.Jumbotron -->
 
     <!-- main content -->
     <main>
       <!-- Portfolio -->
       <section id="portfolio">
         <div class="container">
-          <!-- title -->
-          <div class="row">
-            <div class="text-center">
-              <h2>Portfolio</h2>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-              </div>
+          <!-- portfolio-title+stars -->
+          <div class="text-center">
+            <h2>Portfolio</h2>
+            <div class="stars">
+              <i class="fas fa-star"></i>
             </div>
           </div>
-          <!-- portfolio-img -->
+          <!-- portfolio-img-columns -->
           <div class="row">
+            <!-- cabin -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
@@ -83,110 +78,121 @@
                 <img src="assets/cabin.png" alt="cabin">
               </div>
             </div>
+            <!-- cake -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="assets/cake.png" alt="cabin">
+                <img src="assets/cake.png" alt="cake">
               </div>
             </div>
+            <!-- circus -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="assets/circus.png" alt="cabin">
+                <img src="assets/circus.png" alt="circus">
               </div>
             </div>
+            <!-- game -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="assets/game.png" alt="cabin">
+                <img src="assets/game.png" alt="game">
               </div>
             </div>
+            <!-- safe -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="assets/safe.png" alt="cabin">
+                <img src="assets/safe.png" alt="safe">
               </div>
             </div>
+            <!-- submarine -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-img">
                 <div class="layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="assets/submarine.png" alt="cabin">
+                <img src="assets/submarine.png" alt="submarine">
               </div>
             </div>
-          </div>
-        </div>
+          </div><!-- /.Row -->
+        </div><!-- /.Container -->
       </section><!-- /.Portfolio -->
 
       <!-- About -->
       <section class="about">
         <div class="container">
-          <div class="row">
-            <div class=" col-lg-10 col-lg-offset-1 text-center">
-              <h2>About</h2>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-              </div>
+          <!-- About-title+stars -->
+          <div class="text-center">
+            <h2>About</h2>
+            <div class="stars">
+              <i class="fas fa-star"></i>
             </div>
           </div>
           <div class="row">
+            <!-- col-sx -->
             <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
               <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             </div>
+            <!-- col-dx -->
             <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-5 col-md-5 col-lg-5 ">
               <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
+          </div><!-- /.Row -->
+
+          <!-- button download -->
+          <div class="text-center">
+            <a href="#" class="btn btn-lg btn-border"><i class="fas fa-download"></i>Download</a>
           </div>
-          <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-              <a href="#" class="btn btn-lg btn-border"><i class="fas fa-download"></i>Download</a>
-            </div>
-          </div>
-        </div>
+        </div><!-- /.Container -->
       </section><!-- /.About -->
 
       <!-- contact me -->
       <section class="contact-me">
         <div class="container">
-          <div class="row">
-            <div class="text-center">
-              <h2>Contact me</h2>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-              </div>
+          <!-- contact me title+stars -->
+          <div class="text-center">
+            <h2>Contact me</h2>
+            <div class="stars">
+              <i class="fas fa-star"></i>
             </div>
           </div>
+          <!-- form -->
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+              <!-- name -->
               <div class="form-style">
                 <input type="text" class="form-control" placeholder="Name">
               </div>
+              <!-- email -->
               <div class="form-style">
                 <input type="email" class="form-control" placeholder="Email Address">
               </div>
+              <!-- phone number -->
               <div class="form-style">
                 <input type="text" class="form-control" placeholder="Phone Number">
               </div>
+              <!-- message -->
               <div class="form-style">
                 <textarea class="form-control"  placeholder="Message" Rows="6"></textarea>
               </div>
+              <!-- send-button -->
               <div class="send-button">
                 <a class="btn btn-lg"href="#">Send</a>
               </div>
             </div>
-          </div>
-        </div>
+          </div><!-- /.Row -->
+        </div><!-- /.Container -->
       </section><!-- /.Contact me -->
-    </main>
+    </main><!-- /.Main -->
 
     <!-- footer -->
     <footer>
@@ -198,7 +204,7 @@
               <h2>location</h2>
               <h3>2215 John Daniel Drive Clark, MO 54243</h3>
             </div>
-            <!-- center-social -->
+            <!-- center social-icon -->
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
               <h2>around the web</h2>
               <ul class="list-inline">
@@ -216,22 +222,23 @@
                 </li>
               </ul>
             </div>
-            <!-- about Freelancer -->
+            <!-- dx about Freelancer -->
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
               <h2>About Freelancer</h2>
               <h3>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</h3>
             </div>
-          </div>
-        </div>
-      </div>
+          </div><!-- /.Row -->
+        </div><!-- /.Container -->
+      </div><!-- /.Footer-top -->
+
       <!-- footer-bottom -->
       <div class="footer-bottom">
         <div class="container">
             <div class="text-center">
               <h5>Copyright &copy; Your Website 2020 </h5>
             </div>
-        </div>
-      </div>
+        </div><!-- /.Container -->
+      </div><!-- /.Footer-bottom -->
     </footer><!-- /.Footer -->
 
     <!-- Librerie JS -->
