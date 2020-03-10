@@ -245,12 +245,21 @@
 }
 
 .footer-top ul li a i {
+  display: inline-block;
+  position: relative;
   border: 1px solid #fff;
   border-radius: 50%;
   font-size: 20px;
-  padding: 15px;
-  width: 55px;
+  width: 60px;
+  height: 60px;
   color: #fff;
+}
+
+.footer-top ul li a i::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer-top span {
