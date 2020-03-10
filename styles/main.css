@@ -250,8 +250,8 @@
   border: 1px solid #fff;
   border-radius: 50%;
   font-size: 20px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   color: #fff;
 }
 
@@ -273,4 +273,13 @@
   padding-top: 40px;
   padding-bottom: 40px;
   color: #fff;
+}
+
+/* responsive-icon */
+@media all and (max-width: 991px) and (min-width: 769px) {
+  .footer-top ul li a i {
+    width: 40px;
+    height: 40px;
+  }
+
 }
